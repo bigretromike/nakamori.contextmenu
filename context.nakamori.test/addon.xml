@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.nakamori.test" name="Nakamori - TEST button" version="1.0.0" provider-name="BigRetroMike">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context.py">
+        <label>32000</label>
+        <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,video) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,episode)</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Add TEST button to context menu in library</summary>
+    <description lang="en_GB">Add TEST button to Library</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source>https://github.com/bigretromike/nakamori.contextmenu</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
