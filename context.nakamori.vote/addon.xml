@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.nakamori.vote" name="Nakamori - Vote buttons" version="1.0.0" provider-name="BigRetroMike">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.nakamori" version="3.0.8"/>
+  </requires>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="series.py">
+        <label>32000</label>
+        <visible>String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode)</visible>
+      </item>
+      <item library="episode.py">
+        <label>32001</label>
+        <visible>String.IsEqual(ListItem.dbtype,episode)</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Add Vote buttons to context menu in library</summary>
+    <description lang="en_GB">Add Vote buttons to Library</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source>https://github.com/bigretromike/nakamori.contextmenu</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
