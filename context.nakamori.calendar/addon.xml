@@ -8,7 +8,7 @@
     <menu id="kodi.core.main">
       <item library="context.py">
         <label>32000</label>
-        <visible>true</visible>
+        <visible>!String.StartsWith(ListItem.FolderPath, plugin://) | ((String.IsEqual(ListItem.dbtype,tvshow) + String.IsEqual(ListItem.dbtype,episode))</visible>
       </item>
     </menu>
   </extension>

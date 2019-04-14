@@ -8,11 +8,11 @@
     <menu id="kodi.core.main">
       <item library="series.py">
         <label>32000</label>
-        <visible>String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode)</visible>
+        <visible>!String.StartsWith(ListItem.FolderPath, plugin://) | ((String.IsEqual(ListItem.dbtype,tvshow) + String.IsEqual(ListItem.dbtype,episode))</visible>
       </item>
       <item library="episode.py">
         <label>32001</label>
-        <visible>String.IsEqual(ListItem.dbtype,episode)</visible>
+        <visible>!String.StartsWith(ListItem.FolderPath, plugin://) + String.IsEqual(ListItem.dbtype,episode)</visible>
       </item>
     </menu>
   </extension>
