@@ -1,0 +1,16 @@
+# Kodi Media Center language file
+# Translators:
+# Jim Jiang <jim@lotlab.org>, 2019
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Jim Jiang <jim@lotlab.org>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nakamori/teams/97622/zh_CN/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#32000"
+msgid "Calendar"
+msgstr "日历"
