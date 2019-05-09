@@ -1,14 +1,20 @@
 # Kodi Media Center language file
+# Translators:
+# BigRetroMike, 2019
+# 
 msgid ""
 msgstr ""
+"Last-Translator: BigRetroMike, 2019\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/nakamori/teams/97622/sv_SE/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#32000"
 msgid "Vote (Series)"
-msgstr "Rösta (Serie)" 
+msgstr "Rösta (Serie)"
 
 msgctxt "#32001"
 msgid "Vote (Episode)"
-msgstr "Rösta (Episode)" 
+msgstr "Rösta (Episode)"
