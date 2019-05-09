@@ -1,10 +1,16 @@
 # Kodi Media Center language file
+# Translators:
+# BigRetroMike, 2019
+# 
 msgid ""
 msgstr ""
+"Last-Translator: BigRetroMike, 2019\n"
+"Language-Team: Hebrew (Israel) (https://www.transifex.com/nakamori/teams/97622/he_IL/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 msgctxt "#32000"
 msgid "Calendar"
-msgstr "לוח שנה" 
+msgstr "לוח שנה"
