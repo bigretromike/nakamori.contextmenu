@@ -1,10 +1,16 @@
 # Kodi Media Center language file
+# Translators:
+# BigRetroMike, 2019
+# 
 msgid ""
 msgstr ""
+"Last-Translator: BigRetroMike, 2019\n"
+"Language-Team: French (France) (https://www.transifex.com/nakamori/teams/97622/fr_FR/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgctxt "#32000"
 msgid "Calendar"
-msgstr "Calendrier" 
+msgstr "Calendrier"
