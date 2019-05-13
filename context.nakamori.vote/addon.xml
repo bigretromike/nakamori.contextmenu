@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="context.nakamori.vote" name="Nakamori - Vote buttons" version="1.0.1" provider-name="BigRetroMike">
+<addon id="context.nakamori.vote" name="Nakamori - Vote buttons" version="1.0.2" provider-name="BigRetroMike">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.nakamori" version="3.0.9"/>
@@ -8,7 +8,7 @@
     <menu id="kodi.core.main">
       <item library="series.py">
         <label>32000</label>
-        <visible>!String.StartsWith(ListItem.FolderPath, plugin://) | ((String.IsEqual(ListItem.dbtype,tvshow) + String.IsEqual(ListItem.dbtype,episode))</visible>
+        <visible>!String.StartsWith(ListItem.FolderPath, plugin://) | [String.IsEqual(ListItem.dbtype,tvshow) + String.IsEqual(ListItem.dbtype,episode)]</visible>
       </item>
       <item library="episode.py">
         <label>32001</label>
